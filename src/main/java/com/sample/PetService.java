@@ -7,7 +7,7 @@ import com.sample.model.PetType;
 
 public class PetService {
 
-    public List getAvailableBreeds(PetType type){
+    public List<String> getAvailableBreeds(PetType type){
 
     	System.out.println("Inside method getAvailableBreed......");
         List breeds = new ArrayList();
